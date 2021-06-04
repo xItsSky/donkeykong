@@ -1,0 +1,31 @@
+{
+  "name": "francoisdamien",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "env-cmd node app.js",
+    "dev": "env-cmd nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xItsSky/francoisdamien.git"
+  },
+  "author": "ItsSky",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xItsSky/francoisdamien/issues"
+  },
+  "homepage": "https://github.com/xItsSky/francoisdamien#readme",
+  "dependencies": {
+    "@discordjs/opus": "^0.5.0",
+    "discord.js": "^12.5.3",
+    "env-cmd": "^10.1.0",
+    "ffmpeg-static": "^4.3.0",
+    "french-badwords-list": "^1.0.5",
+    "gif-search": "^2.1.0",
+    "nodaemon": "^0.0.5",
+    "node-opus": "^0.3.3"
+  }
+}
