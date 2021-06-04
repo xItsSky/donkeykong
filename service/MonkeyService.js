@@ -1,8 +1,7 @@
 var gifSearch = require('gif-search');
 
 module.exports = function(client, prefix){
-    client.on('message', (message) =>
-        {
+    client.on('message', async (message) => {
             if(!message.content.includes(prefix)) return;
 
             const commandBody = message.content.slice(prefix.length);
@@ -13,7 +12,7 @@ module.exports = function(client, prefix){
                 gifSearch.setAPIKey(process.env.GIFTOKEN);
                 gifSearch.random('monkey').then(gifUrl =>
                     {
-                        message.channel.send(gifUrl);
+                        message.channel.send(String(gifUrl));
                     }
                 )
             }
