@@ -1,5 +1,5 @@
 {
-  "name": "francoisdamien",
+  "name": "donkeykong",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xItsSky/francoisdamien.git"
+    "url": "git+https://github.com/xItsSky/donkeykong.git"
   },
   "author": "ItsSky",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/xItsSky/francoisdamien/issues"
+    "url": "https://github.com/xItsSky/donkeykong/issues"
   },
-  "homepage": "https://github.com/xItsSky/francoisdamien#readme",
+  "homepage": "https://github.com/xItsSky/donkeykong#readme",
   "dependencies": {
     "@discordjs/opus": "^0.5.0",
     "discord.js": "^12.5.3",
