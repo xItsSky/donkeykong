@@ -8,7 +8,7 @@ WORKDIR /usr/src/donkeykong
 
 COPY package.json /usr/src/donkeykong
 RUN npm install
+RUN npm install -g env-cmd
 
 COPY . /usr/src/donkeykong
 CMD ["npm", "run", "start"]
-
